@@ -44,6 +44,22 @@ P.S. You can delete this when you're done too. It's your config now :)
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
+
+-- Add this section at the top after setting leader key
+local function auto_change_colorscheme()
+  local dark_mode = vim.fn.system('defaults read -g AppleInterfaceStyle')
+  if string.find(dark_mode, 'Dark') then
+    vim.cmd.colorscheme 'xcodedarkhc'
+  else
+    vim.cmd.colorscheme 'xcodelighthc'
+  end
+end
+
+vim.api.nvim_create_autocmd({ "VimEnter", "ColorScheme" }, {
+  callback = auto_change_colorscheme,
+})
+
+
 -- [[ Install `lazy.nvim` plugin manager ]]
 --    https://github.com/folke/lazy.nvim
 --    `:help lazy.nvim.txt` for more info
@@ -198,7 +214,7 @@ require('lazy').setup({
       vim.cmd.colorscheme 'xcodedarkhc'
     end,
   },
-
+--  {'arzg/vim-colors-xcode'},
   {
     -- Set lualine as statusline
     'nvim-lualine/lualine.nvim',
