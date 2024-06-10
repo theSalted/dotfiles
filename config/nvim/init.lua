@@ -192,10 +192,10 @@ require('lazy').setup({
 
   {
     -- Theme that suppoet 256
-    'echasnovski/mini.base16',
+    'arzg/vim-colors-xcode',
     priority = 1000,
     config = function()
-      vim.cmd.colorscheme 'minicyan'
+      vim.cmd.colorscheme 'xcodedarkhc'
     end,
   },
 
