@@ -3,4 +3,4 @@
 - Starship
 - Terminal.app
 - iTerm2
-
+- tmux
