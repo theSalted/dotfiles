@@ -11,3 +11,4 @@ end
 set PATH $PATH /Users/yuhaochen/.local/bin
 
 starship init fish | source
+
