@@ -9,3 +9,4 @@
 - tmux
 - Zed
 - Ghostty
+- Zellij
