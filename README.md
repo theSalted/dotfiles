@@ -4,3 +4,5 @@
 - Terminal.app
 - iTerm2
 - tmux
+- Zed
+- Ghostty

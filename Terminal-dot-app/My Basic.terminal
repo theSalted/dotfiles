@@ -181,7 +181,7 @@
 	4BLlEvAS+RMGEwkTFhMfEyQTLAAAAAAAAAIBAAAAAAAAADUAAAAAAAAAAAAAAAAAABMv
 	</data>
 	<key>CommandString</key>
-	<string></string>
+	<string>fish ~/.config/fish/auto_start_tmux.fish</string>
 	<key>Font</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
@@ -198,7 +198,7 @@
 	<key>ProfileCurrentVersion</key>
 	<real>2.0699999999999998</real>
 	<key>RunCommandAsShell</key>
-	<true/>
+	<false/>
 	<key>ShouldLimitScrollback</key>
 	<integer>0</integer>
 	<key>ShowActiveProcessArgumentsInTitle</key>

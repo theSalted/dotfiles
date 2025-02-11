@@ -1,0 +1,80 @@
+Last login: Mon Feb 10 16:50:37 on ttys123
+Welcome to fish, the friendly interactive shell
+Type help for instructions on how to use fish
+
+~ 
+❯ fish ~/.config/fish/auto_start_tmux.fish
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+override r--r--r-- yuhaochen/staff for dotfiles//.git/objects/93/96841779699ff8bdfc43e83f18ce59e117be7c? y
+override r--r--r-- yuhaochen/staff for dotfiles//.git/objects/94/fb674fdec457b730a84d9b5143321707ae4b96? y
+override r--r--r-- yuhaochen/staff for dotfiles//.git/objects/94/ffa1bdcda7d2b164f201d4ffba4b52d885218e? y
+override r--r--r-- yuhaochen/staff for dotfiles//.git/objects/60/bca5c62554b106d9cf2b4333fada1e8c53f3f2? y
+override r--r--r-- yuhaochen/staff for dotfiles//.git/objects/5a/2d8f0b4a53e1c3c8e512e579e547065c75bb49? y
+override r--r--r-- yuhaochen/staff for dotfiles//.git/objects/33/1dee5937cb406721d81215103e4df0386d0222? y
+override r--r--r-- yuhaochen/staff for dotfiles//.git/objects/33/cd5a1b952821348e26deb45bb161ecd5ca3464? y
+override r--r--r-- yuhaochen/staff for dotfiles//.git/objects/05/2644741beb89588ae4c65bba9b1cfc5af652d5? y
+override r--r--r-- yuhaochen/staff for dotfiles//.git/objects/9d/582832d8f14618ae2b84c7c2c73029fb2d1078? y
+override r--r--r-- yuhaochen/staff for dotfiles//.git/objects/9c/f106272ac3b56b0c4c80218e8fc10a664ca5f4? ^C⏎    
+
+~/developer took 12s 
+❯ sudo rm -r dotfiles/
+Password:
+
+~/developer took 3s 
+❯ git clone https://github.com/theSalted/dotfiles.git
+Cloning into 'dotfiles'...
+remote: Enumerating objects: 225, done.
+remote: Counting objects: 100% (225/225), done.
+remote: Compressing objects: 100% (167/167), done.
+remote: Total 225 (delta 49), reused 209 (delta 37), pack-reused 0 (from 0)
+Receiving objects: 100% (225/225), 906.44 KiB | 4.22 MiB/s, done.
+Resolving deltas: 100% (49/49), done.
+
+~/developer 
+❯ cd dotfiles/
+
+dotfiles on  main 
+❯ open .
+
+dotfiles on  main 
+❯ cd ~
+
+~ 
+❯ open .
+
+~ 
+❯ 
+█yuhaochen | 0█                                               █  fish██  default██  yuhaochen██󰒋  Yuhaos-MacBook-Pro.local██󰃰  2025-02-10 16:55:04█
