@@ -1,5 +1,5 @@
 # My dotfiles
-<img width="1252" alt="image" src="https://github.com/user-attachments/assets/609aebac-9b77-4ff1-bdad-f7ea6f41c5ba" />
+<img width="2044" alt="image" src="https://github.com/user-attachments/assets/d23a6343-65ff-495f-b463-0196776505cf" />
 
 - neovim
 - fish
