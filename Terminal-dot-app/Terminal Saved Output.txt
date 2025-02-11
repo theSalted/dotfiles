@@ -1,0 +1,80 @@
+Last login: Mon Feb 10 19:32:29 on ttys004
+fish ~/.config/fish/auto_start_tmux.fish
+Welcome to fish, the friendly interactive shell
+Type help for instructions on how to use fish
+
+~ 
+❯ fish ~/.config/fish/auto_start_tmux.fish
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+❯ cd .config                                                                                                                          19:30:13 [13/17]
+                                                                                                                
+~/.config                                                                                                       
+❯ cd fish                                                                                                       
+                                                                                                                
+~/.config/fish                                                                                                  
+❯ ls                                                                                                            
+auto_start_tmux.fish    conf.d/                 fish_variables                                                  
+auto_start_zellij.fish  config.fish             functions/                                                      
+completions/            fish_plugins            themes/                                                         
+                                                                                                                
+~/.config/fish                                                                                                  
+❯ nvim auto_start_zellij.fish                                                                                   
+                                                                                                                
+~/.config/fish took 15s                                                                                         
+❯ nvim auto_start_zellij.fish                                                                                   
+                                                                                                                
+~/.config/fish took 4m14s                                                                                       
+❯ nvim auto_start_zellij.fish                                                                                   
+                                                                                                                
+~/.config/fish took 3s                                                                                          
+❯                                                                                                               
+                                                        
+
+                            
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+█fish | 0█                                                  █  [tmux]██  default██  yuhaochen██󰒋  Yuhaos-MacBook-Pro.local██󰃰  2025-02-10 19:50:51█

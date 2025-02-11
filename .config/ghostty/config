@@ -8,6 +8,11 @@ window-width=110
 window-height=36
 font-size = 16 
 window-save-state = always
+macos-secure-input-indication = false
+confirm-close-surface = false
 
-# If you crash it's because of this
-command = /opt/homebrew/bin/fish $HOME/.config/fish/auto_start_tmux.fish
+# If you crash it's because of this (tmux auto start)
+# command = /opt/homebrew/bin/fish $HOME/.config/fish/auto_start_tmux.fish
+
+# zellij auto start
+command = /opt/homebrew/bin/fish $HOME/.config/fish/auto_start_zellij.fish

@@ -91,9 +91,9 @@ P.S. You can delete this when you're done too. It's your config now! :)
 local function auto_change_colorscheme()
   local dark_mode = vim.fn.system 'defaults read -g AppleInterfaceStyle'
   if string.find(dark_mode, 'Dark') then
-    vim.cmd.colorscheme 'catppuccin-macchiato'
+    vim.cmd.colorscheme 'xcodedark'
   else
-    vim.cmd.colorscheme 'catppuccin-latte'
+    vim.cmd.colorscheme 'xcodelight'
   end
 end
 
@@ -788,7 +788,11 @@ require('lazy').setup({
       }
     end,
   },
-
+  {
+    'arzg/vim-colors-xcode', -- Make sure you've installed this plugin
+    name = 'xcodedark',
+    priority = 1000, -- Load before other start plugins
+  },
   { -- You can easily change to a different colorscheme.
     -- Change the name of the colorscheme plugin below, and then
     -- change the command in the config to whatever the name of that colorscheme is.
