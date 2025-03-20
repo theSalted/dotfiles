@@ -344,7 +344,60 @@ require('lazy').setup({
       },
     },
   },
-
+  {
+    'kawre/leetcode.nvim',
+    build = ':TSUpdate html',
+    dependencies = {
+      'nvim-telescope/telescope.nvim',
+      'nvim-lua/plenary.nvim',
+      'MunifTanjim/nui.nvim',
+    },
+    opts = {
+      lang = "swift",
+      theme = {
+        -- Set background for ALL elements that might affect the problem description
+        [""] = { bg = vim.api.nvim_get_hl(0, { name = "Normal" }).background },
+        
+        -- Text elements
+        normal = { fg = vim.api.nvim_get_hl(0, { name = "Conceal" }).foreground, bg = vim.api.nvim_get_hl(0, { name = "Normal" }).background },
+        alt = { fg = vim.api.nvim_get_hl(0, { name = "Comment" }).foreground, bg = vim.api.nvim_get_hl(0, { name = "Normal" }).background },
+        
+        -- Code and examples
+        code = { fg = vim.api.nvim_get_hl(0, { name = "Type" }).foreground, bg = vim.api.nvim_get_hl(0, { name = "Normal" }).background },
+        example = { fg = vim.api.nvim_get_hl(0, { name = "DiagnosticHint" }).foreground, bg = vim.api.nvim_get_hl(0, { name = "Normal" }).background },
+        
+        -- Formatting elements
+        constraints = { fg = vim.api.nvim_get_hl(0, { name = "DiagnosticInfo" }).foreground, bg = vim.api.nvim_get_hl(0, { name = "Normal" }).background },
+        header = { fg = vim.api.nvim_get_hl(0, { name = "SpecialChar" }).foreground, bold = true, bg = vim.api.nvim_get_hl(0, { name = "Normal" }).background },
+        followup = { fg = vim.api.nvim_get_hl(0, { name = "Number" }).foreground, bold = true, bg = vim.api.nvim_get_hl(0, { name = "Normal" }).background },
+        
+        -- Additional elements
+        indent = { fg = vim.api.nvim_get_hl(0, { name = "Comment" }).foreground, bg = vim.api.nvim_get_hl(0, { name = "Normal" }).background },
+        link = { fg = vim.api.nvim_get_hl(0, { name = "Function" }).foreground, underline = true, bg = vim.api.nvim_get_hl(0, { name = "Normal" }).background },
+        list = { fg = vim.api.nvim_get_hl(0, { name = "SpecialChar" }).foreground, bg = vim.api.nvim_get_hl(0, { name = "Normal" }).background },
+        ref = { fg = vim.api.nvim_get_hl(0, { name = "Tag" }).foreground, bg = vim.api.nvim_get_hl(0, { name = "Normal" }).background },
+        su = { fg = vim.api.nvim_get_hl(0, { name = "Number" }).foreground, bg = vim.api.nvim_get_hl(0, { name = "Normal" }).background },
+        
+        -- Text styling
+        italic = { italic = true, bg = vim.api.nvim_get_hl(0, { name = "Normal" }).background },
+        bold = { bold = true, bg = vim.api.nvim_get_hl(0, { name = "Normal" }).background },
+        underline = { underline = true, bg = vim.api.nvim_get_hl(0, { name = "Normal" }).background },
+        
+        -- Keep styling for difficulty indicators and other elements
+        easy = { fg = "#46c6c2" },
+        medium = { fg = "#fac31d" },
+        hard = { fg = "#f8615c" },
+        
+        easy_alt = { fg = "#294d35", bg = vim.api.nvim_get_hl(0, { name = "Normal" }).background },
+        medium_alt = { fg = "#5e4e25", bg = vim.api.nvim_get_hl(0, { name = "Normal" }).background },
+        hard_alt = { fg = "#5a302f", bg = vim.api.nvim_get_hl(0, { name = "Normal" }).background },
+        
+        -- Test case highlighting
+        case_ok = { fg = vim.api.nvim_get_hl(0, { name = "DiagnosticOk" }).foreground, bg = vim.api.nvim_get_hl(0, { name = "Normal" }).background, bold = true },
+        case_err = { fg = vim.api.nvim_get_hl(0, { name = "DiagnosticError" }).foreground, bg = vim.api.nvim_get_hl(0, { name = "Normal" }).background, bold = true },
+      }
+    }
+  },
   -- NOTE: Plugins can specify dependencies.
   --
   -- The dependencies are proper plugin specifications as well - anything
