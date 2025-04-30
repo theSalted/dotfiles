@@ -118,6 +118,12 @@ vim.opt.number = true
 --  Experiment for yourself to see if you like it!
 -- vim.opt.relativenumber = true
 
+-- Indentation settings: Use Tabs, 4 spaces wide
+vim.opt.expandtab = true  -- Use actual tabs, not spaces. See :help expandtab
+vim.opt.tabstop = 4      -- Number of visual spaces per TAB. See :help tabstop
+vim.opt.shiftwidth = 4   -- Number of spaces for each indentation level. See :help shiftwidth
+vim.opt.softtabstop = 4  -- Number of spaces TAB counts for while editing. See :help softtabstop
+
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.opt.mouse = 'a'
 
@@ -1043,4 +1049,4 @@ require('lazy').setup({
 })
 
 -- The line beneath this is called `modeline`. See `:help modeline`
--- vim: ts=2 sts=2 sw=2 et
+-- vim: ts=4 sts=4 sw=4 et
