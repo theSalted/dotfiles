@@ -1,12 +1,7 @@
-if type -q ZELLIJ
-    # check if we're not already inside a zellij session
-    if not set -q ZELLIJ
-        # try to attach to an existing session 
-        zellij attach
-
-        # if attaching failed (no such session), create a new session
-        if test $status -ne 0
-            zellij
-        end
-    end
+# Auto-attach (or create) a zellij session on interactive shells
+if status is-interactive
+    and not set -q ZELLIJ
+    and type -q zellij
+    # Replace fish with zellij; when you exit zellij, the shell ends (cleanest)
+    exec zellij attach --create main
 end

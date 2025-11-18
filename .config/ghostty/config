@@ -1,4 +1,4 @@
-theme = dark:xcodedark,light:xcodelighthc
+theme = dark:Xcode Dark,light:Xcode Light hc
 shell-integration = fish
 font-family = SFMono Nerd Font 
 window-padding-x = 10
@@ -15,4 +15,5 @@ confirm-close-surface = false
 # command = /opt/homebrew/bin/fish $HOME/.config/fish/auto_start_tmux.fish
 
 # zellij auto start
-command = /opt/homebrew/bin/fish $HOME/.config/fish/auto_start_zellij.fish
+# command = /opt/homebrew/bin/fish $HOME/.config/fish/auto_start_zellij.fish
+keybind = shift+enter=text:\x1b\r

@@ -1,0 +1,4 @@
+# Code Style
+- Stay on task. Do not write READMEs or look for other unrelated problems to solve unless I specifically ask you for it. You should just solve the problem I'm asking for in as little code as you can.
+- Do not comment the code. If I can't read the code you've written, you need to make it more clear, you don't need to explain it with comments.
+- Always use context7 when I need code generation, setup or configuration steps, or library/API documentation. This means you should automatically use the Context7 MCP tools to resolve library id and get library docs without me having to explicitly ask.
