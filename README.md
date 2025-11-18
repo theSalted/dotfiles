@@ -10,3 +10,7 @@
 - Zed
 - Ghostty
 - Zellij
+- OpenCode
+- Claude Code
+- Codex
+- Cursor
