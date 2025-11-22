@@ -14,3 +14,4 @@
 - Claude Code
 - Codex
 - Cursor
+- Git
